@@ -1,0 +1,44 @@
+.container-flex {
+  display: flex !important; /* or inline-flex */
+  flex-direction: row;
+}
+
+
+.item-flex {
+  flex-grow: 7 !important; /* default 0 */
+}
+
+.item-flex-u {
+  flex-grow: 0; /* default 0 */
+}
+
+
+.align-img{
+      position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+
+.inner {
+   text-align: center;
+   position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+   
+}
+.inner-m {
+   
+   position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+   
+}
+.inner-b :hover{
+    color :#87CEFA;
+}
+
+.time-post{
+    color :#DCDCDC;
+    line-height: 0.2px;
+}
